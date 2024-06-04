@@ -11,7 +11,7 @@ class Solution {
             return;
         }
         for(int i=ind;i<arr.length;i++){
-            if(i>ind&&arr[i] == arr[i-1]) continue;
+            if(i>ind&&arr[i] == arr[i-1]) continue; //check for picking next index  
             if(arr[i]>target) break;
 
             ds.add(arr[i]);
